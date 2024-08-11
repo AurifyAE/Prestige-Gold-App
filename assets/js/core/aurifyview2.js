@@ -184,10 +184,10 @@ async function fetchData1() {
 
         updatePrice();
 
-        document.getElementById("lowLabelGold").innerHTML = goldLowValue;
-        document.getElementById("highLabelGold").innerHTML = goldHighValue;
-        document.getElementById("lowLabelSilver").innerHTML = silverLowValue;
-        document.getElementById("highLabelSilver").innerHTML = silverHighValue;
+        document.getElementById("lowLabelGold").innerHTML = goldLow;
+        document.getElementById("highLabelGold").innerHTML = goldHigh;
+        document.getElementById("lowLabelSilver").innerHTML = silverLow;
+        document.getElementById("highLabelSilver").innerHTML = silverHigh;
     } catch (error) {
         console.error('Error fetching gold and silver values:', error);
     }
