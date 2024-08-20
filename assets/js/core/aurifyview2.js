@@ -1,7 +1,7 @@
 // import { readSpreadValues } from '../core/spotrateDB.js';
 import { getFirestore, collection, getDocs } from "https://www.gstatic.com/firebasejs/9.6.0/firebase-firestore.js";
 import { app } from '../../../config/db.js';
-import { USER_ID, API_KEY } from '../../../global/global.js';
+import { USER_ID } from '../../../global/global.js';
 
 const script = document.createElement('script');
 script.src = 'https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.2.0/socket.io.js';
